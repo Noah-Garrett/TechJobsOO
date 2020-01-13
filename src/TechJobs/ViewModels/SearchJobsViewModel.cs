@@ -21,10 +21,10 @@ namespace TechJobs.ViewModels
         public string Value { get; set; } = "";
 
         // All columns, for display
-        public List<JobFieldType> Columns { get; set; }
+        //public List<JobFieldType> Columns { get; set; }
 
         // View title
-        public string Title { get; set; } = "";
+        //public string Title { get; set; } = "";
 
         public SearchJobsViewModel()
         {
