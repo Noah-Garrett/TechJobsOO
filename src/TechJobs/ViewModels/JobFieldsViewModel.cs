@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using TechJobs.Models;
+using TechJobs.Views.Shared;
 
 namespace TechJobs.ViewModels
 {
-    public class JobFieldsViewModel
+    public class JobFieldsViewModel : BaseViewModel
     {
         // TODO #7.2 - Extract members common to SearchJobsViewModel
         // to BaseViewModel

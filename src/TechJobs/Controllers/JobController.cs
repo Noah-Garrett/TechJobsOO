@@ -51,7 +51,8 @@ namespace TechJobs.Controllers
                 };
 
                 jobData.Jobs.Add(newJob);
-                
+
+                return Redirect("/Job?id=" + newJob.ID);
                 //
                 //context.Categories.Add(newModel);
                 //context.SaveChanges();
